@@ -17,21 +17,21 @@ Abaixo está o log de exercícios selecionados e resolvidos, focando na aplicaç
 
 | ID | Tópico Principal | Dificuldade | Descrição Resumida |
 | --- | --- | --- | --- |
-| **01** | I/O, Operadores | Easy | [cite_start]Cálculo de Área e Perímetro de Retângulos/Círculos[cite: 9, 11]. |
-| **02** | Precedência | Easy | [cite_start]Conversão Fahrenheit para Celsius[cite: 16]. |
-| **03** | Tipagem, Math | Easy | [cite_start]Cálculo de Volume e Médias Aritméticas[cite: 17, 19, 20]. |
-| **04** | Lógica, Strings | Easy | [cite_start]Inversão de números de 3 dígitos[cite: 36]. |
-| **05** | Condicionais | Easy | [cite_start]Verificação de Par/Ímpar e Positivo/Negativo[cite: 48, 50]. |
-| **06** | Condicionais | Medium | [cite_start]Maior entre três números e Média Ponderada[cite: 51, 54]. |
-| **07** | Lógica de Negócio | Medium | [cite_start]Cálculo de Desconto Previdenciário com Teto[cite: 57, 58, 59]. |
-| **08** | Coleções (Sets) | Medium | [cite_start]Identificação de Vogais/Consoantes usando Sets[cite: 56, 189]. |
-| **09** | Loops (For/While)| Medium | [cite_start]Cálculo de Quociente por Subtrações Sucessivas[cite: 117]. |
-| **10** | Dicionários | Medium | [cite_start]Conversão de número de mês para extenso[cite: 81, 111]. |
+| **01** | I/O, Operadores | Easy | Cálculo de Área e Perímetro de Retângulos/Círculos. |
+| **02** | Precedência | Easy | Conversão Fahrenheit para Celsius. |
+| **03** | Tipagem, Math | Easy | Cálculo de Volume e Médias Aritméticas. |
+| **04** | Lógica, Strings | Easy | Inversão de números de 3 dígitos. |
+| **05** | Condicionais | Easy | Verificação de Par/Ímpar e Positivo/Negativo. |
+| **06** | Condicionais | Medium | Maior entre três números e Média Ponderada. |
+| **07** | Lógica de Negócio | Medium | Cálculo de Desconto Previdenciário com Teto. |
+| **08** | Coleções (Sets) | Medium | Identificação de Vogais/Consoantes usando Sets. |
+| **09** | Loops (For/While)| Medium | Cálculo de Quociente por Subtrações Sucessivas. |
+| **10** | Dicionários | Medium | Conversão de número de mês para extenso. |
 | **11** | Hash Tables | Medium+ | Contagem de frequência de caracteres em strings. |
 | **12** | Performance | Medium+ | Busca de dados $O(1)$ usando Dicionários e `.get()`. |
-| **13** | Algoritmos | Medium+ | [cite_start]Distribuição ótima de cédulas em saques (Caixa Eletrônico)[cite: 37, 40]. |
-| **14** | Matemática | Medium+ | [cite_start]Verificação de Números Primos e Perfeitos[cite: 121, 143]. |
-| **15** | Strings | Medium+ | [cite_start]Formatação de nomes (Citação bibliográfica)[cite: 204, 205]. |
+| **13** | Algoritmos | Medium+ | Distribuição ótima de cédulas em saques (Caixa Eletrônico). |
+| **14** | Matemática | Medium+ | Verificação de Números Primos e Perfeitos. |
+| **15** | Strings | Medium+ | Formatação de nomes (Citação bibliográfica). |
 
 ### Exemplo de execução (Exercício 15: Formatação de Nome)
 
