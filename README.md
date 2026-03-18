@@ -1,15 +1,15 @@
 # 🚀 Python Logic & Data Structures Exercises
 
-[cite_start]Este repositório contém uma coleção de exercícios de lógica de programação resolvidos em **Python**, baseados na lista de algoritmos do **IFBA (Campus Salvador)**[cite: 1, 2, 3, 4]. [cite_start]O foco principal é a transição de conceitos de linguagens de baixo nível (como C) para a eficiência e legibilidade do Python[cite: 5, 8].
+Este repositório contém uma coleção de exercícios de lógica de programação resolvidos em **Python**, baseados na lista de algoritmos do **IFBA (Campus Salvador)**. O foco principal é a transição de conceitos de linguagens de baixo nível (como C) para a eficiência e legibilidade do Python.
 
 Os exercícios progridem de cálculos aritméticos simples até a manipulação avançada de estruturas de dados, com ênfase especial em **Dicionários** e o funcionamento interno de **Hash Tables** para garantir alta performance.
 
 ## 🎯 Objetivos de Aprendizado
 
-* [cite_start]**Fundamentos:** Entrada/Saída, Precedência de Operadores e Tipagem Dinâmica[cite: 8, 9, 10].
+* **Fundamentos:** Entrada/Saída, Precedência de Operadores e Tipagem Dinâmica.
 * **Controle de Fluxo:** Condicionais, Loops e o conceito de *Truthiness* em Python.
-* [cite_start]**Estruturas de Dados:** Uso estratégico de Listas, Tuplas, Sets e Dicionários[cite: 167, 187, 208].
-* [cite_start]**Performance:** Entendimento de complexidade $O(1)$ em buscas usando mapeamento por Hash[cite: 172, 174].
+* **Estruturas de Dados:** Uso estratégico de Listas, Tuplas, Sets e Dicionários.
+* **Performance:** Entendimento de complexidade $O(1)$ em buscas usando mapeamento por Hash.
 
 ## 📚 Lista de Exercícios
 
