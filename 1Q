@@ -1,0 +1,13 @@
+""" Calculos Geometricos: Escreva um programa que receba o raio de 
+uma circunferencia e calcule a area e o perimetro. Utilize o valor de 
+pi importado do modulo math """
+
+import math
+
+raio = float(input("Insira o raio da circunferencia: "))
+
+area = math.pi * (raio ** 2)
+perimetro = 2 * math.pi * raio
+
+print(f"Area equivale a {area: .2f}")
+print(f"Perimetro equivale a {perimetro: .2f}")
