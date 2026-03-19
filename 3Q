@@ -1,0 +1,7 @@
+p1_b1 = float(input("Nota Prova 1 - Primeiro bimestre: "))
+p2_b1 = float(input("Nota Prova 2 - Primeiro bimestre: "))
+p1_b2 = float(input("Nota Prova 1 - Segundo bimestre: "))
+p2_b2 = float(input("Nota Prova 2 - Segundo bimestre: "))
+media_final = (p1_b1 + p2_b1 + p1_b2 + p2_b2) / 4
+
+print(f"Media final igual a{media_final: .2f}")
