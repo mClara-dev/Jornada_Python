@@ -1,0 +1,11 @@
+salario = float(input("Insira o valor do salario: "))
+
+desconto = 0.11 * salario
+
+if desconto > 334.29:
+    desconto = 334.29
+    
+salario_liquido = salario - desconto
+    
+print(f"O desconto da previdencia equivale a: {desconto:.2f}")
+print(f"O salario liquido equivale a: {salario_liquido:.2f}")
