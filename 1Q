@@ -1,7 +1,3 @@
-""" Calculos Geometricos: Escreva um programa que receba o raio de 
-uma circunferencia e calcule a area e o perimetro. Utilize o valor de 
-pi importado do modulo math """
-
 import math
 
 raio = float(input("Insira o raio da circunferencia: "))
