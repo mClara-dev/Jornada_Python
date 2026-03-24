@@ -1,0 +1,14 @@
+produtos = {
+    "arroz": 5.0,
+    "feijao": 6.0,
+    "macarrao": 4.5,
+    "leite": 5.3
+}
+
+busca = input("Qual produto deseja consultar? ").lower().strip()
+preco = produtos.get(busca)
+
+if preco is not None:
+    print(f"O produto {busca} custa R$ {preco: .2f}")
+else:
+    print(f"O produto {busca} nao esta no catalogo")
