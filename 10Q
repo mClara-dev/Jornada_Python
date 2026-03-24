@@ -1,0 +1,11 @@
+meses = { 
+    1: "Janeiro", 2: "Fevereiro", 3: "Marco", 4: "Abril",
+    5: "Maio", 6: "Junho", 7: "Julho", 8: "Agosto", 9: "Setembro",
+    10: "Outubro", 11: "Novembro", 12: "Dezembro"
+}
+
+num = int(input("Insira o numero do mes (1-12): "))
+
+nome_mes = meses.get(num, "Mes invalido")
+
+print(f"O mes correspondente eh: {nome_mes}")
