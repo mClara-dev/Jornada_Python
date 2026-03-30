@@ -1,0 +1,12 @@
+valor = int(input("Insira o valor a ser sacado: "))
+sobra = valor
+
+cedulas = [100, 50, 20, 10, 5, 2, 1]
+
+for nota in cedulas:
+    quantidade = sobra // nota
+    if quantidade > 0:
+        print(f"{quantidade} nota(s) de {nota}")
+    sobra = sobra % nota
+    
+    
