@@ -1,0 +1,18 @@
+n = int(input("Insira a quantidade de termos que deseja ver: "))
+
+a = 0
+b = 1
+contagem = 0
+
+if n <= 0:
+    print("Por favor, insira um numero positivo")
+elif n == 1:
+    print(f"Sequencia ate o {n}º termo: {a}")
+else:
+    print("Sequencia de Fibonacci: ")
+    while contagem < n:
+        print(a, end = " ")
+        proximo = a + b 
+        a = b 
+        b = proximo
+        contagem += 1
