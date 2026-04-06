@@ -1,0 +1,20 @@
+num = int(input("Insira o numero a ser analisado: "))
+
+i = 2
+cont = 0
+
+if num < 1:
+    print("O numero inserido eh invalido!")
+elif num == 1:
+    print("O numero 1 nao eh primo")
+else:
+    while i < num:
+        if num % i == 0:
+            cont += 1
+        i += 1
+        if cont > 1:
+            break
+    if cont > 0:
+        print(f"O numero {num} nao eh primo")
+    else:
+        print(f"O numero {num} eh primo")
