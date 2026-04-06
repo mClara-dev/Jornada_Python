@@ -6,43 +6,56 @@ Os exercícios progridem de cálculos aritméticos simples até a manipulação 
 
 ## 🎯 Objetivos de Aprendizado
 
-* **Fundamentos:** Entrada/Saída, Precedência de Operadores e Tipagem Dinâmica.
-* **Controle de Fluxo:** Condicionais, Loops e o conceito de *Truthiness* em Python.
-* **Estruturas de Dados:** Uso estratégico de Listas, Tuplas, Sets e Dicionários.
-* **Performance:** Entendimento de complexidade $O(1)$ em buscas usando mapeamento por Hash.
+* **Fundamentos:** Uso de `input()`, `print()`, operadores aritméticos e precedência.
+* **Estruturas de Dados:** Uso eficiente de `list`, `dict` e `set` para performance.
+* **Lógica Booleana:** Condicionais aninhadas e expressões lógicas.
+* **Algoritmos:** Implementação de sequências matemáticas (Fibonacci, Primos) e automação de saques (algoritmo guloso).
+* **String Manipulation:** Fatiamento (*slicing*), métodos de normalização e formatação de texto.
 
 ## 📚 Lista de Exercícios
 
-Abaixo está o log de exercícios selecionados e resolvidos, focando na aplicação prática dos conceitos estudados.
+Abaixo está o log de exercícios resolvidos, organizados por blocos de conhecimento.
 
-| ID | Tópico Principal | Dificuldade | Descrição Resumida |
+| ID | Bloco Temático | Dificuldade | Descrição Resumida |
 | --- | --- | --- | --- |
-| **01** | I/O, Operadores | Easy | Cálculo de Área e Perímetro de Retângulos/Círculos. |
-| **02** | Precedência | Easy | Conversão Fahrenheit para Celsius. |
-| **03** | Tipagem, Math | Easy | Cálculo de Volume e Médias Aritméticas. |
-| **04** | Lógica, Strings | Easy | Inversão de números de 3 dígitos. |
-| **05** | Condicionais | Easy | Verificação de Par/Ímpar e Positivo/Negativo. |
-| **06** | Condicionais | Medium | Maior entre três números e Média Ponderada. |
-| **07** | Lógica de Negócio | Medium | Cálculo de Desconto Previdenciário com Teto. |
-| **08** | Coleções (Sets) | Medium | Identificação de Vogais/Consoantes usando Sets. |
-| **09** | Loops (For/While)| Medium | Cálculo de Quociente por Subtrações Sucessivas. |
-| **10** | Dicionários | Medium | Conversão de número de mês para extenso. |
-| **11** | Hash Tables | Medium+ | Contagem de frequência de caracteres em strings. |
-| **12** | Performance | Medium+ | Busca de dados $O(1)$ usando Dicionários e `.get()`. |
-| **13** | Algoritmos | Medium+ | Distribuição ótima de cédulas em saques (Caixa Eletrônico). |
-| **14** | Matemática | Medium+ | Verificação de Números Primos e Perfeitos. |
-| **15** | Strings | Medium+ | Formatação de nomes (Citação bibliográfica). |
+| **01** | Operadores | Easy | Cálculo de Área e Perímetro (Módulo `math`). |
+| **02** | Operadores | Easy | Conversão de Fahrenheit para Celsius. |
+| **03** | Operadores | Easy | Cálculo de Média Semestral com precedência. |
+| **04** | Operadores | Medium | Inversão Numérica (Ex: 498 -> 894) via String/Math. |
+| **05** | Condicionais | Easy | Verificação de Par ou Ímpar. |
+| **06** | Condicionais | Easy | Maior entre Três Números. |
+| **07** | Condicionais | Medium | Desconto Previdenciário com teto fixo. |
+| **08** | Condicionais | Easy | Identificação de Vogal ou Consoante (Uso de `in`). |
+| **09** | Condicionais | Medium | Algoritmo de Ano Bissexto. |
+| **10** | Dicionários | Medium | Mês por Extenso via mapeamento de chaves. |
+| **11** | Dicionários | Medium+ | Contagem de Frequência de Caracteres (Hash Map). |
+| **12** | Dicionários | Medium | Busca de Preços com tratamento de erro (`.get()`). |
+| **13** | Repetição | Hard | Distribuição Ótima de Notas (Algoritmo de Saque). |
+| **14** | Repetição | Medium | Série de Fibonacci até o N-ésimo termo. |
+| **15** | Repetição | Medium | Verificador de Números Primos. |
+| **16** | Coleções | Easy | Estatísticas em Listas (Max, Min, Média). |
+| **17** | Coleções | Easy | Remoção de Duplicatas usando `set`. |
+| **18** | Strings | Easy | Inversão de Texto via Slicing `[::-1]`. |
+| **19** | Strings | Medium | Validação de Palíndromo com normalização. |
+| **20** | Strings | Medium+ | Formatador de Nomes para Citação (Ex: Marquez, G. G.). |
 
-### Exemplo de execução (Exercício 15: Formatação de Nome)
+## 🐍 Destaques da Implementação
 
-```python
-# Input: "Gabriel Garcia Marquez"
-# Lógica: Split da string, isolamento do último item e iniciais do restante.
+Para maximizar o aprendizado em Python, as soluções utilizam:
+* **Slicing:** Para inversão de strings e listas de forma pythônica.
+* **Dicionários:** Como alternativa eficiente a múltiplas condicionais (`switch/case` manual).
+* **Sets:** Para garantir a unicidade de elementos e otimizar buscas.
+* **List Comprehension:** Onde aplicável, para tornar o código mais conciso.
+
+### Exemplo de execução (Exercício 20 - Formatador de Nomes)
+
+```text
+Input:
+Gabriel Garcia Marquez
 
 Output:
-"Marquez, G. G."
+Marquez, G. G.
 ```
-
 ---
 
 ## 🛠️ Tecnologias Utilizadas
