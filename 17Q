@@ -1,0 +1,10 @@
+vetor = []
+
+print("Digite 10 numeros: ")
+for i in range(10):
+    vetor.append(int(input(f"{i + 1}° valor: ")))
+    
+sem_duplicatas = list(set(vetor))
+
+print(f"Lista original: {vetor}")
+print(f"Sem duplicatas: {sem_duplicatas}")
