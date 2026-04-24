@@ -1,0 +1,13 @@
+nome_completo = input("Digite seu nome completo: ").strip()
+nomes = nome_completo.split()
+
+if len(nomes) > 0:
+    ultimo_nome = nomes[-1].capitalize()
+    
+    iniciais = ""
+    for n in nomes[:-1]:
+        iniciais += f"{n[0].upper()}. "
+    
+    print(f"Formato de citação: {ultimo_nome}, {iniciais.strip()}")
+else:
+    print("Nome invalido.")
