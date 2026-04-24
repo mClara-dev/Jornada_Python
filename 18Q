@@ -1,0 +1,6 @@
+texto = input("Digite um texto para inverter: ")
+
+texto_invertido = texto[::-1]
+
+print(f"Texto original: {texto}")
+print(f"Texto invertido: {texto_invertido}")
